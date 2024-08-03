@@ -1,14 +1,6 @@
-# Swisstronik Tesnet Techinal Task 2
+# Swisstronik Testnet 2.0 // Mint ERC-20 Tokens.
 
-link : [Click!](https://www.swisstronik.com/testnet2/dashboard)
-
-Feel free donate to my EVM address
-
-EVM :
-
-```bash
-0x9902C3A98Df4b240ad5496cC26F89bAb8058f4aE
-```
+Link : [Click!](https://www.swisstronik.com/testnet2/dashboard)
 
 ## Steps
 
@@ -50,7 +42,7 @@ pragma solidity ^0.8.20;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract TestToken is ERC20 {
-    constructor()ERC20("IzzyToken","IZZY"){}
+    constructor()ERC20("Uniswap","UNI"){}
 
     function mint1000tokens() public {
         _mint(msg.sender,1000*10**18);
@@ -99,14 +91,8 @@ npm run balance-of
 npm run transfer
 ```
 
-### 11. Finsihed
+### Finished.
 
-- Open the deployed-adddress.ts (location in utils folder)
-- Copy the address and paste the address in testnet dashboard
-- push this project to your github and paste your repository link in testnet dashboard
+Github  : [ragilzy](https://github.com/ragilzy)
 
-by :
-github : [Mnuralim](https://github.com/Mnuralim)
-twitter : @Izzycracker04
-telegram : @fitriay19
-//0x37401D115bC52bBdaa59Df7f7e021523b020F98f
+Swisstronik Address Testnet 0xBD686f99674d8c96597f9B70a2e27EfF3c8BEF74
